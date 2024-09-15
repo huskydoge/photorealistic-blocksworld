@@ -7,7 +7,7 @@ blenderdir=$(echo blender-2.*/)
 $blenderdir/blender -noaudio --background --python render_images.py -- \
       --output-dir      output                          \
       --render-num-samples 50                           \
-      --num-images         5                            \
+      --num-transitions          5                            \
       --start-idx          0                            \
       --width 300                                       \
       --height 200                                      \
